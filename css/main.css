@@ -1,0 +1,217 @@
+body{
+    width: 950px;
+    margin: 0 auto;
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*HEADER BEGIN*/
+.statsOfHeader{
+    height: 155px;
+}
+
+.logo{
+    margin-top: 54px;
+    margin-left: 1px;
+    float: left;
+}
+.navigation ul{
+    float: right;
+    margin-top: 64px;
+}
+.navigation ul li{
+    display: inline;
+    margin-left: 20px;
+}
+.navigation ul li:last-child{
+    margin-right: 1px;
+}
+
+.navigation ul li a{
+    color: #878787;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+}
+.navigation ul li a:hover{
+    color: #0481c2;
+}
+/*HEADER END*/
+
+/*MAIN BEGIN*/
+
+/*ARTICLE BEGIN*/
+article{
+    width: 230px;
+    border-top: 5px solid #0481c2;
+    float: left;
+}
+
+.search input{
+    width: 219px;
+    height: 23px;
+    border: 1px solid #515151;
+    margin-top: 21px;
+    padding-left: 6px;
+    background: url(../img/magnifier.png);
+    background-repeat: no-repeat;
+    background-position: right 7px center;
+    font-size: 12px;
+    font-family: Arial;
+}
+.news{
+    margin-top: 22px;
+}
+.news h3{
+    font-size: 24px;
+    color: #0481c2;
+    font-family: 'Trebuchet MS';
+    margin-left: 1px;
+    padding-bottom: 6px;
+}
+.news .articleNews{
+    border-top: 1px solid #878787;
+    border-bottom: 1px solid #878787
+}
+.news .articleNews:last-child{
+    border-top: none;
+}
+.news .articleNews h4{
+    font-size: 14px;
+    color: #0481c2;
+    font-family: 'Trebuchet MS';
+    margin-left: 1px;
+    padding-top: 25px;
+    font-weight: normal;
+}
+.news .articleNews p{
+    padding-top: 15px;
+    font-size: 12px;
+    color: #404040 ;
+    font-family: Arial;
+    text-align: justify;
+    line-height: 1.2;
+}
+.news .articleNews a{
+    padding-top: 17px;
+    font-size: 12px;
+    color: #878787;
+    font-family: Arial;
+    display: inline-block;
+    padding-bottom: 25px;
+}
+/*ARTICLE END*/
+
+/*MAINCONTENT BEGIN*/
+.mainContent{
+    width: 710px;
+    float: right;
+    border-top: 5px solid #0481c2;
+}
+.mainBanner {
+    margin-top: 21px;
+}
+.mainBanner {
+    position: relative;
+}
+.mainBanner img{
+    display: block;
+}
+.contentOFMainBanner{
+    position: absolute;
+    width: 172px;
+    left: 505px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color:rgba(120,126,135,0.7);
+}
+.contentOFMainBanner h2{
+    padding-top: 71px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+    padding-left: 5px;
+}
+.contentOFMainBanner p{
+    padding-top: 21px;
+    text-align: justify;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: Arial;
+}
+
+/*OFFERS BEGIN*/
+.offers ul{
+    margin-top: 39px;
+}
+.offers ul li {
+    width: 230px;
+    display: inline-block;
+    margin-right: 6px;
+}
+.offers ul li:last-child {
+    margin-right: 0;
+}
+.offers li h4{
+    font-size: 18px;
+    color: #0481c2;
+    font-family: 'Trebuchet MS';
+    padding-top: 13px;
+}
+.offers li h4:first-child{
+    padding-left: 1px;
+}
+.offers li p{
+    font-size: 12px;
+    color: #3c3c3c;
+    font-family: Arial;
+    padding-top: 11px;
+    padding-left: 1px;
+    line-height: 1.2;
+    text-align: justify;
+}
+.offers li a{
+    font-size: 12px;
+    color: #878787;
+    font-family: Arial;
+    padding-top: 16px;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+.offers li .link{
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #0481c2;
+    text-decoration: underline;
+}
+/*OFFERS END*/
+/*MAINCONTENT END*/
+
+/*FOOTER BEGIN*/
+footer{
+    height: 103px;
+}
+.icons {
+    width: 230px;
+    border-top: 5px solid #0481c2;
+    float: left;
+}
+.icons ul li{
+    display: inline-block;
+    padding-top: 8px;
+    margin-right: 2px;
+}
+.copywrite{
+    width: 710px;
+    float: right;
+    border-top: 5px solid #0481c2;
+}
+.copywrite p{
+    float: right;
+    padding-top: 13px;
+    padding-right: 2px;
+    font-size: 12px;
+    font-family: Arial;
+    color: #404040;
+}
