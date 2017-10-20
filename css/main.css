@@ -100,6 +100,7 @@ article{
     font-family: Arial;
     display: inline-block;
     padding-bottom: 25px;
+    vertical-align: top;
 }
 /*ARTICLE END*/
 
@@ -148,6 +149,7 @@ article{
 .offers ul li {
     width: 230px;
     display: inline-block;
+    vertical-align: top;
     margin-right: 6px;
 }
 .offers ul li:last-child {
@@ -178,6 +180,7 @@ article{
     padding-top: 16px;
     padding-bottom: 25px;
     display: inline-block;
+    vertical-align: top;
 }
 .offers li .link{
     padding-top: 0;
@@ -199,6 +202,7 @@ footer{
 }
 .icons ul li{
     display: inline-block;
+    vertical-align: top;
     padding-top: 8px;
     margin-right: 2px;
 }
