@@ -14,11 +14,7 @@ body {
     height: 155px;
 }
 
-/*.logo {*/
-    /*margin-top: 54px;*/
-    /*margin-left: 1px;*/
-    /*float: left;*/
-/*}*/
+
 .logo{
     width: 106px;
     height: 51px;
@@ -26,8 +22,6 @@ body {
     background-repeat: no-repeat;
     margin-top: 54px;
     margin-left: 1px;
-    /*background-position: top 50px left 1px;*/
-    /*background-position: right 7px center;*/
     float: left;
 }
 .logo a{
