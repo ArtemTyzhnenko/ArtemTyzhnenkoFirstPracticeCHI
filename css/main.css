@@ -1,56 +1,80 @@
-body{
+body {
     width: 950px;
     margin: 0 auto;
 }
-.clearfix:after{
+
+.clearfix:after {
     content: '';
     display: table;
     clear: both;
 }
+
 /*HEADER BEGIN*/
-.statsOfHeader{
+.statsOfHeader {
     height: 155px;
 }
 
+/*.logo {*/
+    /*margin-top: 54px;*/
+    /*margin-left: 1px;*/
+    /*float: left;*/
+/*}*/
 .logo{
+    width: 106px;
+    height: 51px;
+    background: url(../img/logo.png);
+    background-repeat: no-repeat;
     margin-top: 54px;
     margin-left: 1px;
+    /*background-position: top 50px left 1px;*/
+    /*background-position: right 7px center;*/
     float: left;
 }
-.navigation ul{
+.logo a{
+    padding: 0 53px;
+    padding-bottom: 51px;
+    display: block;
+    float: left;
+}
+
+.navigation ul {
     float: right;
     margin-top: 64px;
 }
-.navigation ul li{
+
+.navigation ul li {
     display: inline;
     margin-left: 20px;
 }
-.navigation ul li:last-child{
+
+.navigation ul li:last-child {
     margin-right: 1px;
 }
 
-.navigation ul li a{
+.navigation ul li a {
     color: #878787;
     font-size: 20px;
     font-family: 'Trebuchet MS';
 }
-.navigation ul li a:hover{
+
+.navigation ul li a:hover {
     color: #0481c2;
 }
+
 /*HEADER END*/
 
 /*MAIN BEGIN*/
 
 /*ARTICLE BEGIN*/
-article{
+article {
     width: 230px;
     border-top: 5px solid #0481c2;
     float: left;
 }
 
-.search input{
-    width: 219px;
-    height: 23px;
+.search input {
+    width: 227px;
+    height: 27px;
     border: 1px solid #515151;
     margin-top: 21px;
     padding-left: 6px;
@@ -60,24 +84,29 @@ article{
     font-size: 12px;
     font-family: Arial;
 }
-.news{
+
+.news {
     margin-top: 22px;
 }
-.news h3{
+
+.news h3 {
     font-size: 24px;
     color: #0481c2;
     font-family: 'Trebuchet MS';
     margin-left: 1px;
     padding-bottom: 6px;
 }
-.news .articleNews{
+
+.news .articleNews {
     border-top: 1px solid #878787;
     border-bottom: 1px solid #878787
 }
-.news .articleNews:last-child{
+
+.news .articleNews:last-child {
     border-top: none;
 }
-.news .articleNews h4{
+
+.news .articleNews h4 {
     font-size: 14px;
     color: #0481c2;
     font-family: 'Trebuchet MS';
@@ -85,56 +114,65 @@ article{
     padding-top: 25px;
     font-weight: normal;
 }
-.news .articleNews p{
+
+.news .articleNews p {
     padding-top: 15px;
     font-size: 12px;
-    color: #404040 ;
+    color: #404040;
     font-family: Arial;
     text-align: justify;
     line-height: 1.2;
 }
-.news .articleNews a{
-    padding-top: 17px;
+
+.news .articleNews a {
+    margin-top: 17px;
     font-size: 12px;
     color: #878787;
     font-family: Arial;
     display: inline-block;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
     vertical-align: top;
 }
+
 /*ARTICLE END*/
 
 /*MAINCONTENT BEGIN*/
-.mainContent{
+.mainContent {
     width: 710px;
     float: right;
     border-top: 5px solid #0481c2;
 }
+
 .mainBanner {
     margin-top: 21px;
 }
+
 .mainBanner {
     position: relative;
 }
-.mainBanner img{
+
+.mainBanner img {
     display: block;
 }
-.contentOFMainBanner{
+
+.contentOFMainBanner {
     position: absolute;
     width: 172px;
     left: 505px;
     padding-left: 16px;
     padding-right: 16px;
-    background-color:rgba(120,126,135,0.7);
+    background-color: rgba(120, 126, 135, 0.7);
 }
-.contentOFMainBanner h2{
+
+.contentOFMainBanner h2 {
     padding-top: 71px;
     color: #ffffff;
     font-size: 18px;
     font-family: 'Trebuchet MS';
     padding-left: 5px;
 }
-.contentOFMainBanner p{
+
+.contentOFMainBanner p {
     padding-top: 21px;
     text-align: justify;
     font-size: 12px;
@@ -143,28 +181,33 @@ article{
 }
 
 /*OFFERS BEGIN*/
-.offers ul{
+.offers ul {
     margin-top: 39px;
 }
+
 .offers ul li {
     width: 230px;
     display: inline-block;
     vertical-align: top;
     margin-right: 6px;
 }
+
 .offers ul li:last-child {
     margin-right: 0;
 }
-.offers li h4{
+
+.offers li h4 {
     font-size: 18px;
     color: #0481c2;
     font-family: 'Trebuchet MS';
     padding-top: 13px;
 }
-.offers li h4:first-child{
+
+.offers li h4:first-child {
     padding-left: 1px;
 }
-.offers li p{
+
+.offers li p {
     font-size: 12px;
     color: #3c3c3c;
     font-family: Arial;
@@ -173,45 +216,57 @@ article{
     line-height: 1.2;
     text-align: justify;
 }
-.offers li a{
+
+.offers li a {
     font-size: 12px;
     color: #878787;
     font-family: Arial;
-    padding-top: 16px;
-    padding-bottom: 25px;
+    margin-top: 16px;
+    margin-bottom: 25px;
     display: inline-block;
     vertical-align: top;
 }
-.offers li .link{
-    padding-top: 0;
-    padding-bottom: 0;
+
+.offers li .link {
+    margin-top: 0;
+    margin-bottom: 0;
     color: #0481c2;
     text-decoration: underline;
 }
+
 /*OFFERS END*/
 /*MAINCONTENT END*/
 
 /*FOOTER BEGIN*/
-footer{
+footer {
     height: 103px;
 }
-.icons {
+.social{
     width: 230px;
     border-top: 5px solid #0481c2;
     float: left;
+    position: relative;
 }
-.icons ul li{
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 8px;
-    margin-right: 2px;
+.icons{
+    margin-top: 8px;
+    padding-bottom: 22px;
+    background-image: url(../img/social.png);
+    background-repeat: no-repeat;
+    background-size: 134px 23px;
 }
-.copywrite{
+.icons a{
+    display: block;
+    margin-right: 6px;
+    float: left;
+    padding: 11px;
+}
+.copywrite {
     width: 710px;
     float: right;
     border-top: 5px solid #0481c2;
 }
-.copywrite p{
+
+.copywrite p {
     float: right;
     padding-top: 13px;
     padding-right: 2px;
