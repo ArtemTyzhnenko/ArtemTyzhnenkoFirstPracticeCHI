@@ -150,6 +150,9 @@ article {
 }
 
 .contentOFMainBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
     width: 172px;
     left: 505px;
@@ -159,7 +162,7 @@ article {
 }
 
 .contentOFMainBanner h2 {
-    padding-top: 71px;
+    margin-bottom: 25px;
     color: #ffffff;
     font-size: 18px;
     font-family: 'Trebuchet MS';
@@ -167,7 +170,6 @@ article {
 }
 
 .contentOFMainBanner p {
-    padding-top: 21px;
     text-align: justify;
     font-size: 12px;
     color: #ffffff;
