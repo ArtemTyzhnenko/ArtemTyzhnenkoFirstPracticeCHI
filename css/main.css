@@ -245,16 +245,41 @@ footer {
 }
 .icons{
     margin-top: 8px;
-    padding-bottom: 22px;
-    background-image: url(../img/social.png);
-    background-repeat: no-repeat;
-    background-size: 134px 23px;
 }
-.icons a{
+.icons .fb{
+     display: block;
+     margin-right: 6px;
+     float: left;
+     padding: 11px;
+     background: url(../img/social.png) top 0px left 0px;
+ }
+.icons .tw{
     display: block;
     margin-right: 6px;
     float: left;
     padding: 11px;
+    background: url(../img/social.png) top 0 right 51px;
+}
+.icons .in{
+    display: block;
+    margin-right: 6px;
+    float: left;
+    padding: 11px;
+    background: url(../img/social.png) top 0 right 79px;
+}
+.icons .my{
+    display: block;
+    margin-right: 6px;
+    float: left;
+    padding: 11px;
+    background: url(../img/social.png) top 0 right 105px;
+}
+.icons .rs{
+    display: block;
+    margin-right: 6px;
+    float: left;
+    padding: 11px;
+    background: url(../img/social.png) top 0 right 134px;
 }
 .copywrite {
     width: 710px;
